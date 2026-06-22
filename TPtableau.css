@@ -1,0 +1,32 @@
+table { 
+    border-collapse: collapse;
+    border-style: double ; 
+    width: 250px; 
+    height: 150px; 
+}
+
+td { 
+    border: 1px solid black;
+    text-align: center;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+.text-blue { 
+    color: blue;
+}
+
+.fond{ 
+    background-color: rgb(122, 231, 255);
+}
+
+.rotation-droite {
+    transform: rotate(15deg);
+}
+
+.rotation-gauche {
+    transform: rotate(-10deg);
+}
+

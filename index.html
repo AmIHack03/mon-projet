@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Farnèse's Site Web</title>
+
+    <link href="G:\Web design\mon-projet\BOOTSTRAP\bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header id="header-principal" class="d-flex justify-content-between align-items-center px-4 shadow-sm">
+        <div class="logo-container">
+            <img src="eneam.jpeg" alt=" logo de l'eneam " class="logo-img">
+        </div>
+
+        <h1 class="m-0 text-white h3 fw-bold text-uppercase">Bienvenue sur mon site</h1>
+
+        <div class="logo-container">
+            <img src="uac-image.jpg" alt="  logo de l'uac " class="logo-img">
+        </div>
+    </header>
+
+    <div class="container-fluid px-0">
+        <div class="row g-0 main-layout">
+
+            <div id="menu-gauche" class="pt-4 border-end">
+                <h3 class="px-4 text-dark text-uppercase small fw-bold mb-3"> MENU </h3>
+
+                <div class="list-group list-group-flush" role="tablist">
+
+                    <a class="list-group-item list-group-item-action py-3 px-4" data-bs-toggle="list"
+                        href="#pane-mapage" role="tab"> Ma page</a>
+                        
+                    <a class="list-group-item list-group-item-action active py-3 px-4" data-bs-toggle="list"
+                        href="#pane-page1" role="tab"> Page 1 </a>
+
+                    <a class="list-group-item list-group-item-action py-3 px-4" data-bs-toggle="list" href="#pane-page2"
+                        role="tab"> Page 2</a>
+
+                    <a class="list-group-item list-group-item-action py-3 px-4" data-bs-toggle="list"
+                        href="#pane-listes" role="tab"> Listes</a>
+
+                    <a class="list-group-item list-group-item-action py-3 px-4" data-bs-toggle="list"
+                        href="#pane-tableaux" role="tab">Tableaux</a>
+
+                    <a class="list-group-item list-group-item-action py-3 px-4" data-bs-toggle="list"
+                        href="#pane-montableau" role="tab"> Mon tableau</a>
+
+                    <a class="list-group-item list-group-item-action py-3 px-4" data-bs-toggle="list"
+                        href="#pane-formulaire" role="tab"> Formulaire</a>
+
+                    <a class="list-group-item list-group-item-action py-3 px-4" data-bs-toggle="list" href="#pane-moncv"
+                        role="tab"> Mon CV</a>
+
+                </div>
+            </div>
+
+            <div id="ecran-affichage" class="p-4">
+
+                <div class="tab-content h-100 p-3 main-screen-card">
+
+                    <div class="tab-pane fade show active h-100" id="pane-page1" role="tabpanel">
+                        <iframe src="page1.html" title="Page 1"></iframe>
+                    </div>
+
+                    <div class="tab-pane fade h-100" id="pane-page2" role="tabpanel">
+                        <iframe src="page2.html" title="Page 2"></iframe>
+                    </div>
+
+                    <div class="tab-pane fade h-100" id="pane-mapage" role="tabpanel">
+                        <iframe src="ma page.html" title="Ma page"></iframe>
+                    </div>
+
+                    <div class="tab-pane fade h-100" id="pane-listes" role="tabpanel">
+                        <iframe src="liste.html" title="Listes"></iframe>
+                    </div>
+
+                    <div class="tab-pane fade h-100" id="pane-tableaux" role="tabpanel">
+                        <iframe src="Tableau.html" title="Tableaux"></iframe>
+                    </div>
+
+                    <div class="tab-pane fade h-100" id="pane-montableau" role="tabpanel">
+                        <iframe src="TPtableau.html" title="Mon Tableau"></iframe>
+                    </div>
+
+                    <div class="tab-pane fade h-100" id="pane-formulaire" role="tabpanel">
+                        <iframe src="Formulaire.html" title="Formulaire"></iframe>
+                    </div>
+
+                    <div class="tab-pane fade h-100" id="pane-moncv" role="tabpanel">
+                        <iframe src="CV.html" title="Mon CV"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="d-flex justify-content-center align-items-center text-white small">
+        <span>&copy; 2026 Farnèse VODOUNON - Tous droits réservés.</span>
+    </footer>
+
+    <script src="G:\Web design\mon-projet\BOOTSTRAP\bootstrap.min.js"></script>
+</body>
+
+</html>
